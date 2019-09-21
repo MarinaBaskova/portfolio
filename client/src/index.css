@@ -1,13 +1,313 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   CSS Reset
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* General */
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	font-family: "Montserrat", sans-serif;
+	background: #fcfafa;
+	color: #222;
+}
+h2,
+h3 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+h1 {
+	font-weight: 900;
+	font-size: 9rem;
+	margin-bottom: 40px;
+}
+h2 {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	color: rgb(34, 34, 34);
+	letter-spacing: 0.1rem;
+	padding: 3px 5px;
+}
+h3 {
+	font-size: 2.6rem;
+}
+p,
+a,
+li,
+span {
+	font-size: 1.8rem;
+	margin-bottom: 6px;
+	line-height: 3rem;
+}
+@media (max-width: 575px) {
+	p,
+	a,
+	li,
+	span {
+		font-size: 1.6rem;
+		line-height: 2.6rem;
+	}
+}
+button {
+	padding: 8px 12px;
+	margin: 15px 0;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.8rem;
+	border: 2px solid #b1edce;
+	border-radius: 3px;
+	background: #7ecebb;
+	cursor: pointer;
+}
+button:hover {
+	transform: scale(1.1);
+	transition: 0.1s;
+}
+@media (max-width: 575px) {
+	button {
+		font-size: 1.6rem;
+	}
+}
+a {
+	color: #b1edce;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.section {
+	background: #b1edce;
+	width: 115px;
+}
+/* #root {
+	background: #80808021;
+} */
+.App {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px 5%;
+	margin-top: 110px;
+}
+/*NAV*/
+.nav-wrapper {
+	/* background: #80808021; */
+	background: rgb(252, 250, 250);
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 40px 25px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+	opacity: 0.95;
+}
+#navname {
+	margin-bottom: 0px;
+}
+
+.name-wrapper {
+	display: flex;
+	align-items: center;
+}
+@media (max-width: 575px) {
+	.name-wrapper {
+		display: none;
+	}
+}
+
+.nav-links {
+	display: flex;
+	align-items: center;
+}
+.nav-link {
+	margin-left: 40px;
+	line-height: inherit;
+}
+@media (max-width: 768px) {
+	.nav-link {
+		margin-left: 25px;
+	}
+}
+@media (max-width: 575px) {
+	.nav-link {
+		margin-left: 0;
+		margin-right: 25px;
+	}
+}
+
+/*Summary*/
+
+.summary-wrapper {
+	width: 85%;
+	margin: 5px auto;
+}
+
+@media (max-width: 800px) {
+	.summary-wrapper {
+		width: 100%;
+	}
+}
+.summary {
+	font-size: 2.2rem;
+}
+@media (max-width: 575px) {
+	.summary {
+		font-size: 1.8rem;
+	}
+}
+
+/*SKILLS*/
+.skills-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+
+@media (max-width: 575px) {
+	.skills-wrapper {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+}
+#skills-span {
+	font-weight: 500;
+}
+
+#skills-section {
+	margin-top: 55px;
+}
+
+@media (max-width: 575px) {
+	.skills-category {
+		margin-bottom: 20px;
+	}
 }

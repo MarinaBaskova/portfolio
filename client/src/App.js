@@ -1,12 +1,23 @@
 import React from 'react';
+import Navigation from './components/Navigation';
+import Summary from './components/Summary';
+import Skils from './components/Skills'
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
-import './App.css';
+import './index.css';
 
 function App() {
 	return (
+    <>
+    <Navigation />
 		<div className="App">
-			<p>Hello jjjj</p>
+			<Summary />
+      <Skils/>
+			<Projects />
+			<Contact />
 		</div>
+    </>
 	);
 }
 
