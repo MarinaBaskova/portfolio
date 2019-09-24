@@ -180,9 +180,11 @@ button {
 	margin: 15px 0;
 	font-family: "Montserrat", sans-serif;
 	font-size: 1.8rem;
-	border: 2px solid #b1edce;
+	/* border: 2px solid #b1edce; */
+	border: 2px solid #50b4fb;
 	border-radius: 3px;
-	background: #7ecebb;
+	/* background: #7ecebb; */
+	background: #50b4fb;
 	cursor: pointer;
 }
 button:hover {
@@ -284,6 +286,14 @@ a:hover {
 		font-size: 1.8rem;
 	}
 }
+.summary-image {
+	width: 870px;
+	height: 350px;
+}
+#top-image {
+	width: 100%;
+	height: 100%;
+}
 
 /*SKILLS*/
 .skills-wrapper {
@@ -310,4 +320,38 @@ a:hover {
 	.skills-category {
 		margin-bottom: 20px;
 	}
+}
+/*Projects*/
+
+.projects {
+	display: flex;
+	margin-bottom: 80px;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 40px 0px 60px;
+}
+
+.info {
+	width: 55%;
+}
+.buttons {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+}
+.project-images {
+	width: 40%;
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+}
+.project-image {
+	max-width: 500px;
+	width: 100%;
+	align-self: center;
+}
+
+.project-button {
+	margin-right: 25px;
 }

@@ -2,6 +2,7 @@ import BuildMyApp from '../assets/build-my-app.png';
 import SoccerStat from '../assets/soccerStat.png';
 import BookR from '../assets/bookR.png';
 import BCO from '../assets/bco.png';
+import Test from '../assets/test.png';
 
 const projectsList = [
 	{
