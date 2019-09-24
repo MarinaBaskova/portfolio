@@ -10,10 +10,10 @@ const Navigation = () => {
 				<a className="nav-link" href="#skills-section">
 					<h2>SKILLS</h2>
 				</a>
-				<a className="nav-link" href="#">
+				<a className="nav-link" href="#project-section">
 					<h2>PROJECTS</h2>
 				</a>
-				<a className="nav-link" href="#">
+				<a className="nav-link" href="#contact-section">
 					<h2>CONTACT</h2>
 				</a>
 			</div>

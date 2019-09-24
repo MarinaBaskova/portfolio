@@ -10,8 +10,8 @@ const Projects = () => {
 			<div>
 				<div>
 					{projectsList.map((project) => (
-						<div key={project.id}>
-							<div className="Info">
+						<div className="projects" key={project.id}>
+							<div className="info">
 								<h3>{project.name}</h3>
 								<p>{project.description}</p>
 								<p>
@@ -20,17 +20,17 @@ const Projects = () => {
 								<p>
 									<span>Technologies:</span> {project.technologies}
 								</p>
-								<div className="Buttons">
+								<div className="buttons">
 									<a href={project.projectURL} target="_blank" rel="noopener noreferrer">
-										<button>View Project</button>
+										<button className="project-button">View Project</button>
 									</a>
 									<a href={project.githubRepo} target="_blank" rel="noopener noreferrer">
 										<button>GitHub Repo</button>
 									</a>
 								</div>
 							</div>
-							<div className="Images">
-								<img alt={`${project.name} `} src={project.projectImage} />
+							<div className="project-images">
+								<img alt={`${project.name} `} src={project.projectImage} className="project-image" />
 							</div>
 						</div>
 					))}
