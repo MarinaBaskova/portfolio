@@ -333,7 +333,7 @@ a:hover {
 }
 
 .info {
-	width: 55%;
+	width: 50%;
 }
 .buttons {
 	display: flex;
@@ -341,11 +341,12 @@ a:hover {
 	align-items: center;
 }
 .project-images {
-	width: 40%;
+	width: 68%;
 	display: flex;
-	-webkit-box-pack: center;
-	justify-content: center;
+	padding-left: 38px;
+	padding-top: 50px;
 }
+
 .project-image {
 	max-width: 500px;
 	width: 100%;
