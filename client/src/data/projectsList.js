@@ -34,7 +34,7 @@ const projectsList = [
 		technologies: 'React, Redux, React Star Ratings, MaterialUI, Axios',
 		description:
 			'BookR is a source for all things textbook. It is the Airbnb of textbooks, a social platform for peer-reviewed textbooks. BookR was a team of 2 engineers project. My contribution to the project was implementing authentication using JWT, setting up CRUD operations, creating React components for different views.',
-		projectImage: BookR,
+		projectImage: Test,
 		projectURL: 'https://condescending-varahamihira-e3d4c8.netlify.com/',
 		githubRepo: 'https://github.com/MarinaBaskova/build-bookr-FE'
 	},
