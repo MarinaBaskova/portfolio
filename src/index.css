@@ -372,10 +372,16 @@ a {
   padding: 40px 0px 60px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 575px) {
   .projects {
-    padding: 0px;
+    padding: 0;
+    flex-direction: column-reverse;
   }
+}
+
+.project-name {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .info {
@@ -392,6 +398,12 @@ a {
   -webkit-box-align: center;
   align-items: center;
 }
+@media (max-width: 575px) {
+  .buttons {
+    justify-content: center;
+  }
+}
+
 .project-images {
   width: 68%;
   display: flex;
@@ -399,8 +411,17 @@ a {
 }
 @media (max-width: 800px) {
   .project-images {
-    width: 40%;
+    width: 60%;
     margin-top: 3rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .project-images {
+    padding-left: 0;
   }
 }
 
