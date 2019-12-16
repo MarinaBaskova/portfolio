@@ -1,27 +1,27 @@
-import React from 'react';
-import socialAccounts from '../data/socialAccounts';
+import React from "react";
+import socialAccounts from "../data/socialAccounts";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = () => {
-	return (
-		<div>
-			<div className="section" id="contact-section">
-				<h2>Contact</h2>
-			</div>
-			<div>
-				<a href="mailto:marinabaskova24@gmail.com">marinabaskova24@gmail.com</a>
-				<div>
-					{socialAccounts.map((account) => (
-						<div key={account.id}>
-							<a href={account.profileURL} target="_blank" rel="noopener noreferrer">
-								{' '}
-							</a>
-						</div>
-					))}
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div>
+      <div className="section" id="contact-section">
+        <h2>Contact</h2>
+      </div>
+
+      <div className="contact-icon-wrapper">
+        <a className="contact-link" href="mailto:marinabaskova24@gmail.com">
+          <i className="far fa-envelope"></i>
+        </a>
+        <a className="contact-link" href={socialAccounts[0].profileURL}>
+          <i className="fab fa-github-alt"></i>
+        </a>
+        <a className="contact-link" href={socialAccounts[1].profileURL}>
+          <i className="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    </div>
+  );
 };
 
 export default Contact;

@@ -1,21 +1,24 @@
-import React from 'react';
-import summary from '../assets/summary.jpg';
+import React from "react";
+import summary from "../assets/summary.png";
 
 const Summary = () => {
-	return (
-		<div className="summary-wrapper">
-			<div className="summary-image">
-				<img id="top-image" alt="laptop-image" src={summary} />
-			</div>
-			<div className="summary-text">
-				<p className="summary">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta justo porta semper accumsan.
-					Nulla nec volutpat felis, in sodales odio. Cras hendrerit sodales maximus. Morbi lobortis eleifend
-					diam, ac consectetur ante finibus vel. Vivamus pellentesque, dolor id efficitur viverra, ipsum ante
-					rhoncus nunc, vitae sagittis turpis ex et mauris.
-				</p>
-			</div>
-		</div>
-	);
+  return (
+    <div className="summary-wrapper">
+      <div className="summary-image">
+        <img id="top-image" alt="women programmer" src={summary} />
+      </div>
+      <div className="summary-text">
+        <p className="summary">
+          Hi, my name is Marina. I am a full-stack web engineer with experience
+          in leading software development and makeup artistry. My prior
+          experience helped me to develop collaborating, problem-solving, and
+          organizational skills. I am excited to bring those skills into my web
+          development journey. If I'm not programming, I'm likely hiking or
+          observing the night sky with my telescope, thinking about new
+          technologies, or trying an original recipe.
+        </p>
+      </div>
+    </div>
+  );
 };
 export default Summary;
