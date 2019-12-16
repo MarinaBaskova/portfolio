@@ -165,7 +165,6 @@ span {
   font-size: 1.8rem;
   margin-bottom: 6px;
   line-height: 3rem;
-  text-align: justify;
 }
 @media (max-width: 575px) {
   p,
@@ -350,6 +349,11 @@ a {
 .skills-category {
   margin: 3rem;
 }
+@media (max-width: 800px) {
+  .skills-category {
+    width: 23%;
+  }
+}
 
 @media (max-width: 575px) {
   .skills-category {
@@ -408,6 +412,10 @@ a {
 
 .project-button {
   margin-right: 25px;
+}
+
+.project-description {
+  text-align: justify;
 }
 .far {
   font-size: 5rem;

@@ -12,10 +12,10 @@ const Skills = () => {
             <span id="skills-span">CODING LANGUAGES</span>
           </p>
           <ul>
-            <li>Javascript</li>
-            <li>Python</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
+            <li className="skills-category-item">Javascript</li>
+            <li className="skills-category-item">Python</li>
+            <li className="skills-category-item">HTML5</li>
+            <li className="skills-category-item">CSS3</li>
           </ul>
         </div>
         <div className="skills-category">
@@ -23,11 +23,11 @@ const Skills = () => {
             <span>LIBRARIES AND FRAMEWORKS</span>
           </p>
           <ul>
-            <li>ReactJS</li>
-            <li>Redux</li>
-            <li>Node.js</li>
-            <li>LESS | SASS</li>
-            <li>Bootstrap</li>
+            <li className="skills-category-item">ReactJS</li>
+            <li className="skills-category-item">Redux</li>
+            <li className="skills-category-item">Node.js</li>
+            <li className="skills-category-item">LESS | SASS</li>
+            <li className="skills-category-item">Bootstrap</li>
           </ul>
         </div>
         <div className="skills-category">
@@ -35,8 +35,8 @@ const Skills = () => {
             <span>TESTING</span>
           </p>
           <ul>
-            <li>Jest</li>
-            <li>React Testing Library</li>
+            <li className="skills-category-item">Jest</li>
+            <li className="skills-category-item">React Testing Library</li>
           </ul>
         </div>
         <div className="skills-category">
@@ -44,9 +44,9 @@ const Skills = () => {
             <span>DATABASES</span>
           </p>
           <ul>
-            <li>SQLite</li>
-            <li>PostgreSQL</li>
-            <li>MongoDB</li>
+            <li className="skills-category-item">SQLite</li>
+            <li className="skills-category-item">PostgreSQL</li>
+            <li className="skills-category-item">MongoDB</li>
           </ul>
         </div>
         <div className="skills-category">
@@ -54,12 +54,12 @@ const Skills = () => {
             <span className="skills-header">TOOLS</span>
           </p>
           <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>VS Code</li>
-            <li>Terminal</li>
-            <li>Heroku</li>
-            <li>Netlify</li>
+            <li className="skills-category-item">Git</li>
+            <li className="skills-category-item">GitHub</li>
+            <li className="skills-category-item">VS Code</li>
+            <li className="skills-category-item">Terminal</li>
+            <li className="skills-category-item">Heroku</li>
+            <li className="skills-category-item">Netlify</li>
           </ul>
         </div>
       </div>
