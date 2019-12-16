@@ -9,10 +9,10 @@ const Summary = () => {
       </div>
       <div className="summary-text">
         <p className="summary">
-          Hi, my name is Marina. I am a full-stack web engineer with experience
+          Hi, my name is Marina. I'm a full-stack web engineer with experience
           in leading software development and makeup artistry. My prior
           experience helped me to develop collaborating, problem-solving, and
-          organizational skills. I am excited to bring those skills into my web
+          organizational skills. I'm excited to bring those skills into my web
           development journey. If I'm not programming, I'm likely hiking or
           observing the night sky with my telescope, thinking about new
           technologies, or trying an original recipe.
