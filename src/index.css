@@ -371,6 +371,12 @@ a {
   align-items: flex-start;
   padding: 40px 0px 60px;
 }
+@media (max-width: 800px) {
+  .projects {
+    margin-bottom: 0px;
+    padding: 20px 0px 20px;
+  }
+}
 
 @media (max-width: 575px) {
   .projects {
@@ -380,8 +386,12 @@ a {
 }
 
 .project-name {
-  text-align: center;
   margin-top: 2rem;
+}
+@media (max-width: 575px) {
+  .project-name {
+    text-align: center;
+  }
 }
 
 .info {
@@ -390,6 +400,11 @@ a {
 @media (max-width: 800px) {
   .info {
     width: 75%;
+  }
+}
+@media (max-width: 575px) {
+  .info {
+    width: 100%;
   }
 }
 
