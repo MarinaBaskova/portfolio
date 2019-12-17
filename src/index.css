@@ -173,7 +173,7 @@ span {
   span {
     font-size: 1.6rem;
     line-height: 2.6rem;
-    text-align: justify;
+    /* text-align: justify; */
   }
 }
 button {
@@ -291,7 +291,7 @@ a {
 .summary {
   font-size: 1.8rem;
   line-height: 3rem;
-  text-align: justify;
+  /* text-align: justify; */
 }
 @media (max-width: 575px) {
   .summary {
@@ -306,7 +306,7 @@ a {
 @media (max-width: 800px) {
   .summary-text {
     margin-left: 0rem;
-    text-align: justify;
+    /* text-align: justify; */
   }
 }
 
@@ -451,7 +451,7 @@ a {
 }
 
 .project-description {
-  text-align: justify;
+  /* text-align: justify; */
 }
 .far {
   font-size: 5rem;
