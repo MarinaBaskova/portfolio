@@ -14,9 +14,9 @@ const Projects = () => {
               <div className="info">
                 <h3 className="project-name">{project.name}</h3>
                 <p className="project-description">{project.description}</p>
-                <p className="project-description">
+                {/* <p className="project-description">
                   <span>Role:</span> {project.role}
-                </p>
+                </p> */}
                 <p className="project-description">
                   <span>Technologies:</span> {project.technologies}
                 </p>

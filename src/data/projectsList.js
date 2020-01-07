@@ -7,7 +7,7 @@ const projectsList = [
   {
     id: 0,
     name: "Build My App",
-    role: "Full-Stack Developer",
+    // role: "Full-Stack Developer",
     technologies:
       "Node.js, React, React Hooks, Axios, Auth0, NodeMailer, PostgreSQL",
     description:
@@ -19,7 +19,7 @@ const projectsList = [
   {
     id: 1,
     name: "Soccer Players Stats",
-    role: "UI Developer",
+    // role: "UI Developer",
     technologies: "HTML5, CSS3 w/LESS, Javascript",
     description:
       "Static marketing page, featuring Soccer Players Stats app, where users can see players and view their important statistics. Soccer Players Stats was a solo project. My contribution to the project was creating fully designing UI, implementing image carousel, applying vanilla Javascript for some animation, making pages fully responsive based on screen size.",
@@ -30,7 +30,7 @@ const projectsList = [
   {
     id: 2,
     name: "BookR",
-    role: "Front End Engineer",
+    // role: "Front End Engineer",
     technologies: "React, Redux, React Star Ratings, MaterialUI, Axios",
     description:
       "BookR is a source for all things textbook. It is the Airbnb of textbooks, a social platform for peer-reviewed textbooks. BookR was a team of 2 engineers project. My contribution to the project was implementing authentication using JWT, setting up CRUD operations, creating React components for different views.",
@@ -41,7 +41,7 @@ const projectsList = [
   {
     id: 3,
     name: "Business Card Organizer",
-    role: "Back End Engineer",
+    // role: "Back End Engineer",
     technologies:
       "Node, Express, Knex, PostgreSQL, BcryptJS, JsonWebToken, Jest, Helmet",
     description:

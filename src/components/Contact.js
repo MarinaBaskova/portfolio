@@ -1,10 +1,9 @@
 import React from "react";
 import socialAccounts from "../data/socialAccounts";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact-wrapper">
       <div className="section" id="contact-section">
         <h2>Contact</h2>
       </div>

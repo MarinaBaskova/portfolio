@@ -173,7 +173,6 @@ span {
   span {
     font-size: 1.6rem;
     line-height: 2.6rem;
-    /* text-align: justify; */
   }
 }
 button {
@@ -291,7 +290,6 @@ a {
 .summary {
   font-size: 1.8rem;
   line-height: 3rem;
-  /* text-align: justify; */
 }
 @media (max-width: 575px) {
   .summary {
@@ -306,7 +304,6 @@ a {
 @media (max-width: 800px) {
   .summary-text {
     margin-left: 0rem;
-    /* text-align: justify; */
   }
 }
 
@@ -369,7 +366,7 @@ a {
   -webkit-box-pack: justify;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 40px 0px 60px;
+  padding: 40px 0px 0px;
 }
 @media (max-width: 800px) {
   .projects {
@@ -428,8 +425,6 @@ a {
   .project-images {
     width: 60%;
     margin-top: 3rem;
-    /* display: flex; */
-    /* justify-content: center; */
     margin: 0 auto;
   }
 }
@@ -450,25 +445,26 @@ a {
   margin-right: 25px;
 }
 
-.project-description {
-  /* text-align: justify; */
-}
 .far {
-  font-size: 5rem;
+  font-size: 6.3rem;
   font-weight: 400;
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
-  font-size: 5rem;
+  font-size: 6.3rem;
   font-weight: 400;
 }
+
+.contact-wrapper {
+  margin-top: 10rem;
+}
 .contact-link {
-  margin-right: 30px;
+  margin-right: 50px;
   color: rgb(45, 45, 45);
 }
 
 .contact-icon-wrapper {
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
